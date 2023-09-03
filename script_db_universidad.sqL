@@ -163,6 +163,7 @@ describe alumno_se_matricula_asignatura;
 describe grado;
 describe curso_escolar;
 
+# insertar tablas con registro
 select * from departamento;
 select * from profesor;
 select * from alumno;
@@ -171,7 +172,7 @@ select * from alumno_se_matricula_asignatura;
 select * from grado;
 select * from curso_escolar;
 
-
+# borrar tablas malas
 drop table departamento;
 drop table  profesor;
 drop table  alumno;
